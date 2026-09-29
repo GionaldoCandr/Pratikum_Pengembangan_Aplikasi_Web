@@ -2,24 +2,24 @@
 
 **Nama: Gionaldo Candrawansah
 NIM : 105224031
-Repositori:** [https://github.com/GionaldoCandr/Pratikum_Pengembangan_Aplikasi_Web]
+Repositori:** https://github.com/GionaldoCandr/Pratikum_Pengembangan_Aplikasi_Web
 
 ---
 
 ## 1. Lingkungan Pengembangan
 
-Berikut adalah spesifikasi perangkat keras dan perangkat lunak yang digunakan sebagai lingkungan pengembangan aplikasi web:
+Lampiran Spesifikasi perangkat keras dan perangkat lunak yang digunakan sebagai lingkungan pengembangan aplikasi web:
 
-| Komponen               | Spesifikasi                   |
-| :--------------------- | :---------------------------- |
-| **Sistem Operasi**     | Windows 11                    |
-| **Node.js**            | v24.x.x (LTS)                 |
-| **npm**                | v11.x.x                       |
-| **Git**                | v2.x.x (Versi stabil terbaru) |
-| **Visual Studio Code** | v1.x.x                        |
-| **Peramban**           | Google Chrome                 |
+| Komponen               | Spesifikasi        |
+| :--------------------- | :----------------- |
+| **Sistem Operasi**     | Windows 11         |
+| **Node.js**            | v24.15.0           |
+| **npm**                | v11.12.1           |
+| **Git**                | v2.51.1. Windows.1 |
+| **Visual Studio Code** | v1.138.0           |
+| **Peramban**           | Google Chrome      |
 
-*Seluruh perangkat lunak di atas telah dipasang dan diverifikasi melalui terminal terintegrasi VS Code untuk memastikan keseragaman lingkungan pengembangan [3, 7].*
+*Seluruh perangkat lunak di atas telah dipasang dan diverifikasi melalui terminal terintegrasi VS Code/ AntiGravity IDE  untuk memastikan keseragaman lingkungan pengembangan*.
 
 ---
 
@@ -28,20 +28,25 @@ Berikut adalah spesifikasi perangkat keras dan perangkat lunak yang digunakan se
 ### Keluaran `git log --oneline --graph`
 Berikut adalah visualisasi riwayat commit lokal setelah proses penggabungan branch dan penyelesaian konflik selesai dilakukan:
 
+
+![[Pasted image 20260928063246.png]]
+
 ```text
-*   a7c8b9d (HEAD -> main, origin/main) merge: selesaikan konflik deskripsi produk
-|\  
-| * f3e2d1c docs: perjelas deskripsi produk
-* | c5b4a3f docs: ubah deskripsi produk
-|/  
-* 9c41d0a feat: ganti judul halaman utama
-* 5e8782b docs: tambahkan deskripsi produk pada README
-* 5b2c327 Initial commit from Create Next App
+- **`20881dc DokTek`** (Terbaru)  
+    ID komitnya adalah `20881dc` dengan pesan _"DokTek"_.
+- **`c920438 Chance Git Remote`**  
+    ID komitnya adalah `c920438` dengan pesan _"Chance Git Remote"_.
+- **`459a104 Update : index`**  
+    ID komitnya adalah `459a104` dengan pesan _"Update : index"_.
+- **`ab158e7 W1`**  
+    ID komitnya adalah `ab158e7` dengan pesan _"W1"_.
+- **`b1e5534 Week1`** (Paling Lama)  
+    ID komitnya adalah `b1e5534` dengan pesan _"Week1"_
 ```
-*(Catatan: Anda dapat mengganti kode hash 7 karakter di atas dengan hash asli dari terminal Anda melalui perintah `git log --oneline --graph` [11]).*
+
 
 ### Tautan Pull Request (PR)
-* **Tautan PR yang telah digabungkan:** `[Tempel tautan halaman Pull Request dari GitHub Anda yang sudah berstatus MERGED]` [12]
+* **Tautan PR yang telah digabungkan:** https://github.com/raihanpakbar/Latihan-GIt-Pemweb-cs24/pull/5 
 
 ### Analisis Konflik Git
 1. **Konflik yang Terjadi:** Konflik muncul pada berkas `README.md` saat menjalankan perintah `git merge latihan/konflik`. Hal ini terjadi karena branch `main` dan branch `latihan/konflik` mengubah baris teks deskripsi yang sama secara bersamaan dengan isi yang berbeda.
@@ -97,24 +102,8 @@ Berikut adalah data hasil penelusuran lalu lintas data menggunakan panel Network
 
 ## 5. Catatan Pemanfaatan AI
 
-* **Alat AI yang Digunakan:** ChatGPT / Claude
+* **Alat AI yang Digunakan:** Mode Ai Google
 * **Perintah Utama (Prompt):** *"Jelaskan mekanisme kerja kode status HTTP 304 Not Modified dalam kaitannya dengan penggunaan ETag pada browser DevTools."*
 * **Bagian yang Digunakan:** Membantu menyusun struktur kalimat analisis perbandingan lalu lintas data dengan cache dan tanpa cache pada poin analisis Bab 3.
 * **Cara Memverifikasi:** Memeriksa kebenaran penjelasan AI dengan membaca dokumentasi resmi MDN Web Docs mengenai topik *HTTP Caching* dan *Conditional Requests* untuk memastikan data teknis yang ditulis terbukti akurat.
 ```
-
-***
-
-### 🚀 Cara Mengirimkan Tugas ke GitHub:
-1. Pastikan folder repositori praktikum Anda sudah rapi. Letakkan draf dokumen ini di dalam struktur folder: **`docs/praktikum/modul-01.md`**.
-2. Jalankan perintah berturut-turut berikut ini pada aplikasi terminal Anda untuk melakukan commit dan push langsung ke branch utama (`main`):
-   ```bash
-   git add docs/praktikum/modul-01.md
-   git commit -m "docs: buat dokumen teknis modul 1 lengkap"
-   git push origin main
-   ```
-3. Buka halaman repositori GitHub Anda di browser, klik berkas `modul-01.md` yang baru Anda kirim, lalu salin (copy) link URL dari address bar web tersebut.
-4. Tempelkan link tersebut pada kolom pengumpulan teks daring yang tersedia di portal e-learning kampus Anda.
-
-<FollowUp>
-Apakah Anda membutuhkan bantuan untuk menyusun **kalimat gagasan awal produk** (isi Tugas Pendahuluan nomor 6) atau ada **tangkapan layar (screenshot)** dari DevTools yang kodenya masih membingungkan untuk dianalisis?</FollowUp>
