@@ -1,7 +1,7 @@
 # Dokumen Teknis Modul 2 — HTML Semantik, Tailwind CSS, dan Aksesibilitas
 
 **Nama / NIM** : Gionaldo Candrawansah / 105224031
-**Repositori** : [Link Repositori GitHub Anda, contoh: https://github.com/username/produk-aplikasi-web]
+**Repositori** : [https://github.com/GionaldoCandr/Pratikum_Pengembangan_Aplikasi_Web](https://github.com/GionaldoCandr/Pratikum_Pengembangan_Aplikasi_Web/tree/main/Week2/docs/praktikum)
 
 ---
 
