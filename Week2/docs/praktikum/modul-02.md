@@ -35,9 +35,9 @@ Tata letak antarmuka dirancang menggunakan pendekatan **Mobile-First** dengan ko
 
 | Lebar Layar           | Pratinjau Tampilan                       |
 | :-------------------- | :--------------------------------------- |
-| **360 px (Mobile)**   | ![[Pasted image 20261008191416.png]]<br> |
-| **768 px (Tablet)**   | ![[Pasted image 20261008191442.png]]     |
-| **1280 px (Desktop)** | ![[Pasted image 20261008191508.png]]<br> |
+| **360 px (Mobile)**   | ![Tampilan Mobile](/Week2/docs/praktikum/360.png) |
+| **768 px (Tablet)**   | ![Tampilan Table](/Week2/docs/praktikum/768.png)     |
+| **1280 px (Desktop)** | ![Tampilan Desktop](/Week2/docs/praktikum/1280.png) |
 
 ### Penggunaan Kelas Flexbox, Grid, Breakpoint, dan Razionalisasi Keputusan Teknis
 
@@ -61,9 +61,9 @@ Tata letak antarmuka dirancang menggunakan pendekatan **Mobile-First** dengan ko
 
 ### Ringkasan Skor Lighthouse
 
-![[Screenshot 2026-10-02 090101.png]]
+![Lighthouse Audit Sebelum](/Week2/docs/praktikum/sebelum.png)
 
-![[Screenshot 2026-10-02 085814.png]]
+![Lighthouse Audit Sesudah](/Week2/docs/praktikum/sesudah.png)
 
 | Halaman | Skor Sebelum Perbaikan | Skor Sesudah Perbaikan | Target Minimal Modul | Status |
 | :--- | :---: | :---: | :---: | :---: |
